@@ -1,7 +1,11 @@
 Buildroot for wifibroadcast
 To build buildroot for wifibroadcast, do the following:
 0) sudo apt-get install build-essential
-1) run 'make wifibroadcast_raspberry_defconfig', 'make wifibroadcast_raspberry0_defconfig', 'make wifibroadcast_raspberry2_defconfig', 'make wifibroadcast_raspberry3_defconfig' based on the raspi you want to use
+1) select one of the following commands based on the raspi you want to use:
+1a) 'make wifibroadcast_raspberry_defconfig' (recommended for testing and as tx)
+1b) 'make wifibroadcast_raspberry0_defconfig' (recommended as tx)
+1c) 'make wifibroadcast_raspberry2_defconfig' (recommended as rx)
+1d) 'make wifibroadcast_raspberry3_defconfig' (recommended as rx)
 2) run 'make menuconfig' if you want to setup specif stuff or skip this step for default packages
 2a) go to Target Packages and then configure the wifibroadcast packages
 3) run 'make'

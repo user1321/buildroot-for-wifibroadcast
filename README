@@ -1,3 +1,15 @@
+Buildroot for wifibroadcast
+To build buildroot for wifibroadcast, do the following:
+0) sudo apt-get install build-essential
+1) run 'make wifibroadcast_raspberry_defconfig', 'make wifibroadcast_raspberry0_defconfig', 'make wifibroadcast_raspberry2_defconfig', 'make wifibroadcast_raspberry3_defconfig' based on the raspi you want to use
+2) run 'make menuconfig' if you want to setup specif stuff or skip this step for default packages
+2a) go to Target Packages and then configure the wifibroadcast packages
+3) run 'make'
+4) wait while it compiles
+5) find the image in output/images
+
+------
+
 Buildroot is a simple, efficient and easy-to-use tool to generate embedded
 Linux systems through cross-compilation.
 

@@ -3,6 +3,13 @@ menu "Target packages"
 	source "package/busybox/Config.in"
 	source "package/skeleton/Config.in"
 
+menu "Wifibroadcast"
+	source "package/wifibroadcast/Config.in"
+	source "package/wifibroadcast-osd/Config.in"
+	source "package/wifibroadcast-rangarid-osd/Config.in"
+	source "package/wifibroadcast-scripts/Config.in"
+endmenu
+
 menu "Audio and video applications"
 	source "package/alsa-utils/Config.in"
 	source "package/aumix/Config.in"

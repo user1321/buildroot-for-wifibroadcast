@@ -5,6 +5,7 @@ config BR2_PACKAGE_WIFIBROADCAST
 	depends on BR2_PACKAGE_IW # iw
 	depends on BR2_PACKAGE_WIRELESS_TOOLS # iwconfig and so on
 	depends on BR2_PACKAGE_WIRELESS_REGDB # really needed?
+	depends on BR2_PACKAGE_RPI_USERLAND # raspivid + hello_video
 	help
 	  This will install Befi's wifibroadcast
 
@@ -24,3 +25,6 @@ comment "wbc needs wireless-tools"
 
 comment "wbc needs wireless-regdb"
 	depends on !BR2_PACKAGE_WIRELESS_REGDB
+
+comment "wbc needs rpi-userland"
+	depends on !BR2_PACKAGE_RPI_USERLAND

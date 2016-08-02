@@ -1,0 +1,6 @@
+config BR2_PACKAGE_WIFIBROADCAST_OSD_RANGARID
+	bool "wifibroadcastosd-rangarid"
+	help
+	  This will install Rangarid's wifibroadcast osd
+
+	  https://github.com/SamuelBrucksch/wifibroadcast_osd/

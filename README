@@ -16,6 +16,12 @@ Current Status
 - wbc is compiled and built in with latest version
 - raspivid + hello_video.bin (modified for wbc) is built in
 
+TODO
+- befis frsky OSD
+- rangarids multi protocoll OSD
+- start scripts for automated usage
+- config files to configure channels and so on
+
 ------
 
 Buildroot is a simple, efficient and easy-to-use tool to generate embedded

@@ -1,5 +1,6 @@
-Buildroot for wifibroadcast
+# Buildroot for wifibroadcast
 
+## Building
 To build buildroot for wifibroadcast, do the following:
 0) sudo apt-get install build-essential mercurial git
 1) select one of the following commands based on the raspi you want to use:
